@@ -1,23 +1,23 @@
-#include "down.h"
+#include "back.h"
 #include <cstring>
 #include<sstream>
 
-Down::Down()
+Back::Back()
 {
-	command = new char[strlen("down 20")+1];
-	strcpy(command, "down 20");
+	command = new char[strlen("back 20")+1];
+	strcpy(command, "back 20");
 }
 
-Down::Down(int _value)
+Back::Back(int _value)
 {
 	std::stringstream sstream;
-	sstream << "down " << _value;
+	sstream << "back " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());
 }
 
-double Down::get_delay()
+double Back::get_delay()
 { 
 	return 5; 
-} 
+} 	

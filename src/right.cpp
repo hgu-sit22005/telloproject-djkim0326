@@ -1,23 +1,23 @@
-#include "down.h"
+#include "right.h"
 #include <cstring>
 #include<sstream>
 
-Down::Down()
+Right::Right()
 {
-	command = new char[strlen("down 20")+1];
-	strcpy(command, "down 20");
+	command = new char[strlen("right 20")+1];
+	strcpy(command, "right 20");
 }
 
-Down::Down(int _value)
+Right::Right(int _value)
 {
 	std::stringstream sstream;
-	sstream << "down " << _value;
+	sstream << "right " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());
 }
 
-double Down::get_delay()
+double Right::get_delay()
 { 
 	return 5; 
 } 

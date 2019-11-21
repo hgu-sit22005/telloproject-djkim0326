@@ -10,8 +10,15 @@ command_lst = []
 command_lst.append(TelloPro.get_instance('takeoff', -1))
 command_lst.append(TelloPro.get_instance('up', 10))
 command_lst.append(TelloPro.get_instance('down', 30))
-for i in range(0, 4):
-	command_lst.append(TelloPro.get_instance('flip', i))
+#for i in range(0, 4):
+#	command_lst.append(TelloPro.get_instance('flip', i))
+command_lst.append(TelloPro.get_instance('left', 20))
+command_lst.append(TelloPro.get_instance('right', 20))
+command_lst.append(TelloPro.get_instance('forward', 20))
+command_lst.append(TelloPro.get_instance('back', 20))
+command_lst.append(TelloPro.get_instance('cw', 90))
+command_lst.append(TelloPro.get_instance('ccw', 180))
+
 command_lst.append(TelloPro.get_instance('land', -1))
 
 for command in command_lst:

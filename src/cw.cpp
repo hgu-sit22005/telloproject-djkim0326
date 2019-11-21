@@ -1,23 +1,23 @@
-#include "down.h"
+#include "cw.h"
 #include <cstring>
 #include<sstream>
 
-Down::Down()
+Cw::Cw()
 {
-	command = new char[strlen("down 20")+1];
-	strcpy(command, "down 20");
+	command = new char[strlen("cw 20")+1];
+	strcpy(command, "cw 20");
 }
 
-Down::Down(int _value)
+Cw::Cw(int _value)
 {
 	std::stringstream sstream;
-	sstream << "down " << _value;
+	sstream << "cw " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());
 }
 
-double Down::get_delay()
+double Cw::get_delay()
 { 
 	return 5; 
-} 
+} 	

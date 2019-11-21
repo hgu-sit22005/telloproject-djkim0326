@@ -4,10 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/data/telloproject-djkim0326/src/back.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/back.cpp.o"
+  "/data/telloproject-djkim0326/src/ccw.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/ccw.cpp.o"
+  "/data/telloproject-djkim0326/src/cw.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/cw.cpp.o"
   "/data/telloproject-djkim0326/src/down.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/down.cpp.o"
   "/data/telloproject-djkim0326/src/flip.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/flip.cpp.o"
+  "/data/telloproject-djkim0326/src/forward.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/forward.cpp.o"
   "/data/telloproject-djkim0326/src/land.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/land.cpp.o"
+  "/data/telloproject-djkim0326/src/left.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/left.cpp.o"
   "/data/telloproject-djkim0326/src/python_interface.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/python_interface.cpp.o"
+  "/data/telloproject-djkim0326/src/right.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/right.cpp.o"
   "/data/telloproject-djkim0326/src/takeoff.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/takeoff.cpp.o"
   "/data/telloproject-djkim0326/src/up.cpp" "/data/telloproject-djkim0326/build/CMakeFiles/TelloPro.dir/src/up.cpp.o"
   )

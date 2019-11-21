@@ -6,6 +6,13 @@
 #include "up.h"
 #include "flip.h"
 #include "down.h"
+#include "left.h"
+#include "right.h"
+#include "forward.h"
+#include "back.h"
+#include "cw.h"
+#include "ccw.h"
+
 
 TelloPro* get_instance(boost::python::str _inst, int _value)
 {
@@ -21,6 +28,19 @@ TelloPro* get_instance(boost::python::str _inst, int _value)
 		return new Flip(_value);
 	else if (instance == "down")
 		return new Down(_value);
+	else if (instance == "left")
+		return new Left(_value);
+	else if (instance == "right")
+		return new Right(_value);
+	else if (instance == "forward")
+		return new Forward(_value);
+	else if (instance == "back")
+		return new Back(_value);
+	else if (instance == "cw")
+		return new Cw(_value);
+	else if (instance == "ccw")
+		return new Ccw(_value);
+
 	else
 		return nullptr;
 }
